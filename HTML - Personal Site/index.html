@@ -1,0 +1,178 @@
+<!-- מגדיר את סוג הקובץ לבראוזר -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- כותרת של האתר בטאב -->
+  <title>Iyar's Personal Site</title>
+  <link rel="stylesheet" href="css/styles.css">
+
+<!-- begin style comment
+<style>
+/* this is an internal css code! */
+/* everthing is in comment becuase we moved it to the styles.css file */
+/* this how a css comment looks like */
+/* we put style insdie of the head tag */
+/* don't forget ";" at the end! */
+/* we use - element we want to affect\change and then curly braces {} in which inside we will write our css code,
+ ie what we want to chagne about it and then to what to change it to*/
+  /* body { */
+    /* background-color: hsla(110, 63%, 87%, 0.6); */
+    /* } */
+
+  /* hr { */
+    /* background-color: hsla(110, 63%, 87%, 0.6); */
+    /* border-top-color: hsla(100,0%,50%, 0.4); */
+    /* border-top-style: dotted; */
+    /* border-left-style: none; */
+    /* border-right-style: none; */
+    /* border-bottom-style: none; */
+    /* border-style: dotted none none; */
+    /* tnx to MDN */
+    /* height: 0px; */
+    /* now there is no need for background-color anymore */
+    /* width: 5%; */
+    /* border-width: 5px; */
+    /* css affects the boxes which the webpage is build upon */
+    }
+  /* img{
+    height: 200px;
+  }*/
+/* you can mark up with the mouse an entire segment, then hit tab and it will indent everything inside */
+</style>
+end style comment-->
+</head>
+<!-- קונטרול + . שזה בעצם - / עושה קומנט בשורטקאט  -->
+<!-- https://developer.mozilla.org/en-US/docs/Web/CSS/color_value -->
+<body>
+  <!-- הכנסו קוד של סיאסאס! זה אלמנט הסטייל -->
+  <table cellspacing=20>
+    <tr>
+      <td>
+        <!-- אלמנט תמונה, מקבל או דיירקטורי-פאת'' מהמחשב או יואראל מהרשת -->
+        <img src="Images/profile pic.jpg" alt="PROBLEM WITH IMAGE OF IYAR">
+        <!-- alt = search engines use these words as well to understand
+          what tyhe webpage is about; these are key words for the search engine -->
+      </td>
+      <td>
+        <!-- כותרת גדולה -->
+        <h1>Iyar</h1>
+        <!-- פסקה בגוף האתר
+    נתעדף סמנטיקה על עיצוב בהטמל ולכן אמפסיס וסטרונג ולא איטליק ובולד
+     -->
+        <!-- אנקור טאג -->
+        <p><em>Man</em>, <strong>
+            <a href="https://duckduckgo.com/?q=CHILDREN&iax=images&ia=images">Child</a></strong></p>
+        <p>Brief bio about myself - Im awesome and stuff</p>
+      </td>
+      <td>third cell lmao</td>
+    </tr>
+  </table>
+
+  <!-- קו הוריזנטלי להפרדה נוחה בעין -->
+  <hr>
+  <!--כותרת קטנה-->
+  <h3>Education:</h3>
+  <!-- רשימה לא מסודרת מספרי ת -->
+  <ul>
+    <!-- איבר ברשימה -->
+    <li>Hashmonaim</li>
+    <li>Blich</li>
+  </ul>
+  <hr>
+  <h3>Work Experience</h3>
+  <strong>
+    <p>this is a paragraph of work Experience</p>
+  </strong>
+  <p>2010-2020 asdasdsad</p>
+  <p>2010 asddssa</p>
+  <hr>
+  <h3>Work Experience</h3>
+  <!-- טבלה פשוט ה -->
+  <table cellspacing="10">
+    <thead>
+      <!-- כותרות של התאים -->
+      <tr>
+        <td><strong>this is a table head via thead of work Experience,
+            this is the reason the "dates" header is not centered</strong></td>
+      </tr>
+      <tr>
+        <!-- TH יכול לעבוד גם בלי הTHEAD ברוב הבראוזרים -->
+        <th>Dates</th>
+        <th>Work</th>
+        <th>this is th</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- גוף של הטבלה -->
+      <tr>
+        <td>this is tbody</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <!-- סוף הטבלה, התחת שלה -->
+      <tr>
+        <td>this is tfoot</td>
+      </tr>
+    </tfoot>
+
+    <tr>
+      <td>2010-2020</td>
+      <td>asdasdsad</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>asddssa</td>
+    </tr>
+  </table>
+  <hr>
+  <h3>Skills</h3>
+  <!-- fucking nested tables shit -->
+  <table cellspacing=10 border="1">
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <td>web dev <br> ios dev </td>
+            <td>&#11088;&#11088;&#11088;&#11088;&#11088; <br> &#11088;&#11088;&#11088;&#11088;&#11088; </td>
+            <!-- &#11088; = star symbol -->
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td>painting <br> coding </td>
+            <td>&#11088;&#11088;&#11088; <br> &#11088;&#11088; </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <hr>
+  <!-- רפרנס לעמוד אחר וככה זה לא וובפייג', אלא וובסייט! חהחה' -->
+  <a href="Hobbies.html">My Hobbies</a>
+  <a href="Contact.html">Contact me</a>
+  <a href="inputs.html">INPUTS NOTEBOOK</a>
+
+  <!--
+  <br>
+  <h1>CHALLENGE</h1>
+  <hr>
+  <a href="https://developer.mozilla.org/en-US/">MDN DOCs</a>
+  <table>
+    <tr>
+      <td>One</td>
+      <td>Two</td>
+    </tr>
+    <tr>
+      <td>Three</td>
+      <td>Four</td>
+    </tr>
+
+  </table>
+   -->
+</body>
+
+</html>

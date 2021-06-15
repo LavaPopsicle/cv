@@ -1,0 +1,24 @@
+/* These are Basic CSS selectors, they are selectors according to the
+ html tag we wish to style */
+  body {
+    background-color: #EAF6F6;
+    }
+
+  hr {
+    border-top-color: grey;
+    border-style: dotted none none;
+    width: 5%;
+    border-width: 5px;
+    }
+
+  h1 {
+    color: #66BFBF;
+
+  }
+
+  h3 {
+    color: magenta;
+  }
+/* this is external CSS */
+/* inline>internal>external, thus I can work on a WHOLISTIC lvl and an IDIVIDUAL lvl */
+/* in pratice, external is superior */
